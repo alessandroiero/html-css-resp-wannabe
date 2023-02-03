@@ -127,9 +127,14 @@
  /************************************************
      SOLUZIONE RESPONSIVE
   ************************************************/
+  /* Bonus */
+  @media screen and (max-width:1160px) {
+    .container{
+        max-width: 768px;
+    }
+  }
   /* Tablet */
   @media screen and (max-width:768px){
-
     .container{
         max-width: 768px;
     }
